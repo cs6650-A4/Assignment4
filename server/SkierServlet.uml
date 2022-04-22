@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>services.RabbitMqAsynchronousServiceImpl</OriginalElement>
+  <nodes>
+    <node x="0.0" y="146.0">services.SkierService</node>
+    <node x="0.0" y="73.0">util.RabbitMQChannelFactory</node>
+    <node x="0.0" y="219.0">controllers.SkierServlet</node>
+    <node x="0.0" y="0.0">services.RabbitMqAsynchronousServiceImpl</node>
+    <node x="191.0" y="219.0">daos.SkierDao</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="164.5" y="123.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,8 @@
+repository/SkierRedisRepository.class
+Main.class
+model/LiftRide.class
+repository/IGenericRepository.class
+model/LiftRideBody.class
+consumer/SkierConsumer.class
+util/Configs.class
+Main$1.class
