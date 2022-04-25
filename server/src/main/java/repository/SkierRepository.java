@@ -29,6 +29,7 @@ public class SkierRepository {
     Jedis resource = jedisPool.getResource();
     String s = resource.get(key);
     if (s == null || s.isEmpty()) {
+      jedisPool.returnResource(resource);
       return 0;
     }
     int verticals = Integer.parseInt(s);
@@ -52,6 +53,7 @@ public class SkierRepository {
     if (seasonID.equals("*")) {
       Set<String> keys = resource.keys(key);
       if (keys == null) {
+        jedisPool.returnResource(resource);
         return 0;
       }
       for (String k : keys) {
@@ -60,6 +62,7 @@ public class SkierRepository {
     } else {
       String s = resource.get(key);
       if (s == null || s.isEmpty()) {
+        jedisPool.returnResource(resource);
         return 0;
       }
       verticals = Integer.parseInt(s);

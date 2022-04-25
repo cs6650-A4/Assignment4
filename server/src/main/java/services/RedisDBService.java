@@ -4,7 +4,7 @@ import redis.clients.jedis.JedisPool;
 
 public class RedisDBService {
 
-  public static final String REDIS_HOST = "52.26.58.58";
+  public static final String REDIS_HOST = "35.88.0.185";
   //  public static final String REDIS_HOST = "localhost";
   public static final int REDIS_PORT = 6379;
   public static final String REDIS_PASSWORD = "123456";

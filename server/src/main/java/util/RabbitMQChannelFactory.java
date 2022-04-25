@@ -16,7 +16,7 @@ import org.apache.commons.pool2.impl.DefaultPooledObject;
 public class RabbitMQChannelFactory extends BasePooledObjectFactory<Channel> {
 
 //  private final static String HOST = "localhost";
-  private final static String HOST = "34.221.95.237";
+  private final static String HOST = "18.237.94.141";
   private final static int PORT = 5672;
 
   private ConnectionFactory factory = null;
